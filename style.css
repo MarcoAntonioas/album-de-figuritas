@@ -1,0 +1,14 @@
+.boton {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  .tachado{
+    background-color: #95a5a6;                  
+  }
+  *{
+    background-color:antiquewhite
+  }
