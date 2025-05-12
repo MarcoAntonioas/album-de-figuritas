@@ -1,7 +1,7 @@
 const contenedor = document.getElementById("botones");
 const contador = document.getElementById("contador");
 let n = 40;
-let tachados = JSON.parse(localStorage.getItem("figuritasTachadas"));
+let tachados = JSON.parse(localStorage.getItem("figuritasTachadas")) || [];
 
 n -= tachados.length;
 contador.textContent = `Te quedan ${n} figuritas`;
