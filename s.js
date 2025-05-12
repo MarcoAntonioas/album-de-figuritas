@@ -6,10 +6,9 @@ let tachados = JSON.parse(localStorage.getItem("figuritasTachadas")) || [];
 n -= tachados.length;
 contador.textContent = `Te quedan ${n} figuritas`;
 
-for (let i = 0; i < 40; i++) {
+for (let i = 1; i <= 40; i++) {
   const boton = document.createElement("button");
   boton.className = "boton";
-  boton.textContent = i + 1;
 
   if (tachados.includes(i)) {
     boton.classList.add("tachado");
